@@ -7,5 +7,6 @@ But I don't like all of the noise using inline SVGs in my markup.  So this littl
 be used in a Rails app like so:
 
 ```erb
+# loads the inline SVG partial at app/views/icons/solid/_building.html.erb
 <%= render "icons/solid/building", classes: "w-6 h-6" %>
 ```
